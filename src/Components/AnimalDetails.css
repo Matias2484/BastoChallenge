@@ -1,0 +1,61 @@
+.details {
+    background: url(../Img/vaca_ternero.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.details_items {
+    width: 70%;
+    height: 70%;
+    padding-top: 4rem;
+    margin: auto;
+    background-color: hsla(120, 33%, 81%, 0.3);
+}
+.details_text {
+    color: rgb(51, 42, 42);
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    width: 30rem;
+    height: 3rem;
+    margin: auto;
+}
+.details_text span {
+    color: black;
+    margin-left: 1rem;
+    
+}
+.details_btn {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.details_btn span {
+   padding: 5px;
+}
+.details_btn_edit {
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    padding: 3px;
+    background-color: rgb(22, 32, 22);
+}
+
+.details_btn_edit:hover {
+    background-color: rgb(101, 180, 101);
+}
+.details_btn_edit span {
+    color: green;   
+}
+.details_btn_delete {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(73, 12, 12);
+}
+.details_btn_delete:hover {
+   background-color: rgb(173, 102, 102); 
+}
+.details_btn_delete span{
+    color: red;
+    
+}

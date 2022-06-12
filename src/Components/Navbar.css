@@ -1,0 +1,44 @@
+.nav_container {
+    background-color: #e7e7e7;
+    text-align: justify;
+}
+.navBar {
+    width: 90%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    
+}
+.titulo_nav {
+    display: flex;
+    margin-left: 1rem;
+}
+.titulo_nav p {
+    font-size: 18px;
+}
+.titulo_icon {
+    margin-right: 1rem;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.btn_home {
+    background-color: #e7e7e7;
+    border: none; 
+}
+
+.icon_home {
+    color: black;
+    margin-right: 1rem;
+}
+.icon_home:hover {
+    color: rgb(18, 18, 83);
+   
+}
+.icon_bell {
+    margin-right: 1rem;
+}

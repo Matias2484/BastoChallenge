@@ -1,0 +1,138 @@
+.home {
+    background-color: rgb(180, 180, 180);
+    background-size: cover;
+    padding-bottom: 3rem;
+}
+.home_menu {
+    text-align: left;
+    margin-left: 1rem;
+}
+.menu_animales {
+    color: rgb(25, 136, 25);
+    padding-top: 1rem;
+}
+.gestion_animales {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.button_animales {
+    background-color: rgb(25, 136, 25);
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.button_animales:hover {
+    color: black;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.searchBar {
+    margin-top: 1rem;
+    width: 70%;
+}
+.searchBar input[placeholder] {
+    padding: 10px;
+    font-size: 15px;
+}
+.search_input {
+    border: none;
+    width: 30rem;
+    border-radius: 5px;
+}
+.lista_animales {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.home_table {
+    border-top: 1px solid black;
+    
+    margin-left: 2rem;
+    width: 90%;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 3rem;
+    
+}
+.home_table th {
+    font-size: 13px;
+}
+.table_body td {
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    height: 10vh;
+}
+.btn_table {
+    display: flex;
+    
+
+}
+.btn_detail {
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 180);
+    
+}
+.btn_detail_nav {
+    color: rgb(25, 136, 25);
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+.btn_detail_nav:hover {
+    color: rgb(3, 63, 3);
+}
+.btn_delete {
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 180);
+    color: rgb(185, 23, 23);
+    margin-top: 1.3rem;
+}
+.btn_delete:hover {
+    color: red;
+}
+.botonNext {
+    margin-top: 20rem;
+    width: 2rem;
+    height: 2.5rem;
+    top: 3rem;
+    right: 10px;
+    position: absolute;
+    cursor: pointer;
+  }
+  .botonPrev {
+    margin-top: 20rem;
+    width: 2rem;
+    height: 2.5rem;
+    margin-right: 2rem;
+    top: 3rem;
+    right: 25px;
+    position: absolute;
+    cursor: pointer;
+  }
+  .paginado {
+    float: right;
+    margin-right: 1rem;
+  }
